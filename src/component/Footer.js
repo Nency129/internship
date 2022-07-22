@@ -9,8 +9,8 @@ function Footer() {
                 <span class="float-start">Back</span>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-outline-success rounded-pill mx-2 float-end" >CONTINUE SHOPPING</button>
-                <button type="button" class="btn btn-outline-success rounded-pill mx-2 float-end" >PROCEED TO PAYMENT</button>
+                <button type="button" class="btn btn-outline-success rounded-pill mx-2 float-end" onClick={()=>{alert("You are on the Payment page")}} >PROCEED TO PAYMENT</button>
+                <button type="button" class="btn btn-outline-success rounded-pill mx-2 float-end" onClick={()=>{alert("You want to continue Shopping")}} >CONTINUE SHOPPING</button>
             </div>
         </div>
     </div>

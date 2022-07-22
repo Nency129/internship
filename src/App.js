@@ -21,16 +21,15 @@ function App() {
                 <div class="pt-3"><Login/></div>
                 </div>
                 <div class="col">
-                  <div class="pt-3 "><Method/></div>
+                  <div class="pt-3"><Method/></div>
                 </div>
                 <div class="col">
-                  <div class="pt-3  "><Cart/></div>
+                  <div class="pt-3"><Cart/></div>
                 </div>
             </div>
         </div>
       <Footer/>
     </div> 
-    
     </>
     
   );
